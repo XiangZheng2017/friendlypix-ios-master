@@ -253,6 +253,7 @@
 				TargetAttributes = {
 					5F5A534B1ADE670C00F81DF0 = {
 						CreatedOnToolsVersion = 6.3;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.Push = {
 								enabled = 1;
@@ -544,6 +545,7 @@
 				CODE_SIGN_ENTITLEMENTS = FriendlyPix/FriendlyPix.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos11.0]" = "~/Documents/FacebookSDK";
@@ -555,6 +557,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.google.firebase.quickstart.AuthenticationExample;
 				PRODUCT_NAME = FriendlyPix;
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -569,6 +572,7 @@
 				CODE_SIGN_ENTITLEMENTS = FriendlyPix/FriendlyPix.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -579,6 +583,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.google.firebase.quickstart.AuthenticationExample;
 				PRODUCT_NAME = FriendlyPix;
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
